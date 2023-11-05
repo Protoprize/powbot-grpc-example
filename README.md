@@ -2,10 +2,10 @@
 
 This repo contains a basic implementation for using GRPC with PowBot
 
-# Requirements 
+## Requirements 
 - A GRPC server - Tons of tutorials online and is pretty simple/quick to setup.
 
-# Tutorial
+## Tutorial
 
 1. Make sure your .proto files in `src/main/proto` reflect those used on your server
 2. To generate Protobuf stubs, run the `generateProto` task: `.\gradlew :generateProto`
